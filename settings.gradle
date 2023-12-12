@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Procrastiless"
 include ':app'
+include ':core:data'
+project(':core:data').projectDir = new File('core/data')
